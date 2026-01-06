@@ -18,11 +18,15 @@ On the validation set, the model achieves an mAP of 0.433 and AP50 of 0.765, sig
 - Improved recall in crowded scenes
 
 ## Demo
-![demo](assets/demo_detr_crowdhuman.gif)
+![compare_pretrain_vs_crowdhuman](https://github.com/user-attachments/assets/ab1e20ff-a11e-47bf-8df1-a263106e5a30)
 
 ## Notes
 - Dataset and trained weights are not included.
 - This repository focuses on configuration design and training strategy adaptation using MMDetection.
+
+## metric
+<img width="640" height="480" alt="loss_curve_from_scalars" src="https://github.com/user-attachments/assets/01345261-9e0d-4f6c-b0bd-ac1aad8791be" />
+<img width="640" height="480" alt="map_curve_from_scalars" src="https://github.com/user-attachments/assets/e97b72f6-b650-4d0d-a3d5-c603accbed31" />
 
 ## Acknowledgement
 This project is based on Deformable DETR and MMDetection.
